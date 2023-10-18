@@ -1,14 +1,14 @@
 # Little Lemon Food Ordering App
 
 - The application is a React Native Expo Food app.
-- Users will be capable of signing up on the Little Lemon restaurant app.
+- Users can sign up on the Little Lemon restaurant app.
 - Users will have to go through a registration process.
-- Once they successfully complete that phase, they are redirected to a home screen.
-- Home screen will represent the landing screen after completing the onboarding flow, displaying a header, a banner with a search bar and a list of menu items where a user can filter each categories.
-- User can also customize their name, email, photo and and other user preferences through a Profile Screen.
-- Profile screen also contains four checkboxes enable specific email notifications, like order status, password changes,special offers, and newsletters.
-- Use AsyncStorage module to preserve the chosen preferences even when the user quits the application
-- When clicking the Logout button, user will redirect back to login page, clearing all data saved from Profile.
+- Once they complete that phase, they are redirected to a home screen.
+- After completing the onboarding flow, the home screen will represent the landing screen, displaying a header, a banner with a search bar and a list of menu items where a user can filter each category.
+- User can also customize their name, email, photo and other user preferences through a Profile Screen.
+- The profile screen also contains four checkboxes that enable specific email notifications, like order status, password changes, special offers, and newsletters.
+- Use the AsyncStorage module to preserve the chosen preferences even when the user quits the application
+- When clicking the Logout button, the user will be redirected back to the login page, clearing all data saved from the Profile.
 - Use SQLite Database to populate, query and filter menu items.
 
 ## Table of contents
@@ -27,11 +27,7 @@
 ### How to use the project
 
 ##### npm install && npm start
-##### Then, a QR Code wil appear on your terminal.
-##### On IOS Scan QR code through Camera app.
-##### On Android : Scan QR code through Expo Go app.
-
-##### You can also scan this [QR CODE](https://expo.dev/@marventures/little-lemon-app) to view the project. 
+##### Then, a QR Code will appear on your terminal.
 
 ### Screenshot
 ![final_mockup](https://user-images.githubusercontent.com/108392678/217717918-a6f83c94-c1ab-4796-903e-388b9a67cdd9.jpg)
@@ -48,18 +44,18 @@
 ### Built with
 
 - [React Native](https://reactnative.dev/docs/environment-setup) - React Native app built with expo
-- [SQLite](https://docs.expo.dev/versions/latest/sdk/sqlite/) - For storing restaurant's menu items.
+- [SQLite](https://docs.expo.dev/versions/latest/sdk/sqlite/) - For storing the restaurant's menu items.
 - [AsyncStorage](https://react-native-async-storage.github.io/async-storage/docs/api/) - For storing user preferences.
 - [StyleSheet](https://reactnative.dev/docs/stylesheet) - For styles
 
 ### What I learned
 
 - Create a React Native App using Expo
-- Create a wireframe and high fidelity mockup using Figma.
+- Create a wireframe and high-fidelity mockup using Figma.
 - Use ContextAPI for login
 - Use React Navigation (Native Stack) for screen routes.
 - Use ImagePicker API to set user Profile Picture
-- Use useFonts Hook from expo-fonts to set custom fonts
+- Use use fonts Hook from expo-fonts to set custom fonts
 - Use AsyncStorage to store user settings.
 - Use getItem and setItem methods to read and set data to AsyncStorage
 - ConnectAsyncStorage to a state
@@ -67,8 +63,8 @@
 - Connect SQLite to a state
 - Create form validation for users
 - Handling side-effects using useEffect Hook
-- Use FlatList component to render menu
-- Use ScrollView component to render categories title
+- Use the FlatList component to render the menu
+- Use the ScrollView component to render the categories' title
 - Use View, View, Text Components
 - Extract all styles to StyleSheet API
 
@@ -135,8 +131,8 @@ useEffect(() => {
 
 ### Useful resources
 
-- [React Native Docs (StyleSheet) ](https://reactnative.dev/docs/stylesheet) - This helped me for all the neccessary React Native styles. I really liked their documentation and will use it going forward.
-- [ImagePicker API](https://docs.expo.dev/versions/latest/sdk/imagepicker/) - This helped me for creating an option for user to select profile picture on their devices.
-- [SQLite](https://docs.expo.dev/versions/latest/sdk/sqlite/) - This helped me for saving menu items.
-- [Async Storage](https://react-native-async-storage.github.io/async-storage/docs/api/) - This helped me for saving user settings.
-- [ContextAPI](https://beta.reactjs.org/reference/react/createContext)- This helped me for creating a authentication context for login.
+- [React Native Docs (StyleSheet) ](https://reactnative.dev/docs/stylesheet) - This helped me with all the necessary React Native styles. I liked their documentation and will use it going forward.
+- [ImagePicker API](https://docs.expo.dev/versions/latest/sdk/imagepicker/) - This helped me create an option for users to select profile pictures on their devices.
+- [SQLite](https://docs.expo.dev/versions/latest/sdk/sqlite/) - This helped me save menu items.
+- [Async Storage](https://react-native-async-storage.github.io/async-storage/docs/api/) - This helped me save user settings.
+- [ContextAPI](https://beta.reactjs.org/reference/react/createContext)- This helped me create an authentication context for login.
